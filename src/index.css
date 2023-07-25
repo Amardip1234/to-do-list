@@ -1,0 +1,69 @@
+body{
+  margin: 0;
+  padding: 0%;
+}
+
+#todo_div{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0%;
+  background-color: rgb(22, 14, 14);
+}
+h1{
+  text-align: center;
+  font-size: 35px;
+  color: rgb(212, 209, 25);
+}
+#todomain{
+  position: relative;
+  height: 60%;
+  width: 25%;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, rgb(126, 8, 204) 0%, rgb(17, 3, 68) 100%);
+}
+.addbtn{
+  position:absolute;
+ margin-left: 35px;
+ height: 40px;
+ width: 40px;
+ border-radius: 50%;
+ font-weight: 800;
+ font-size: 20px;
+ color: rgb(187, 187, 171);
+ background-color: rgb(97, 158, 39);
+}
+.addbtn:hover{
+  background-color: #1d3c6b;
+}
+#inp{
+  padding: 10px;
+  border-radius: 50px;
+  margin-left: 40px;
+  
+}
+.list{
+  position: relative;
+  left: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+.Del{
+  position: relative;
+  left: 205px;
+  top: -22px;
+  background-color: 	#922b35;
+  color: rgb(184, 184, 16);
+  font-weight: 800;
+  border-radius: 7px;
+  width: 50px;
+  height: 25px;
+
+}
+.Del:hover{
+  background-color: rgb(209, 30, 30);
+}
